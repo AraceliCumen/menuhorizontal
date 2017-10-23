@@ -17,6 +17,8 @@ ul{
     margin: 0;
     background: #2e2e2a;
     line-height: 40px;
+    overflow: auto;
+    /*Con overflow devuelves el contexto a la etiqueta contenedor*/
 }
 
 li{
@@ -26,8 +28,6 @@ li{
     text-align: center;
     float: left;
     /*float saca de contexto a la etiqueta contenedor*/
-    overflow: auto;
-    /*Con overflow devuelves el contexto a la etiqueta contenedor*/
 }
 
 a{
